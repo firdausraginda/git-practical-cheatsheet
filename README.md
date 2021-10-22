@@ -38,7 +38,7 @@
     - if changes are **modified**, not **untracked**, then can just do commit without add, using flag `-a`: `git commit -a -m <comments>`
     - push to master: `git push origin main/master`
 
-- if in the middle of coding you want to undo everything and get back to the last commit (as log as not pushed to remote branch yet), can do: `git restore .`
+- if in the middle of coding you want to undo everything and get back to the last commit (as long as not pushed to remote branch yet), can do: `git restore .`
 
 - branching:
     - to list local branches: `git branch`
