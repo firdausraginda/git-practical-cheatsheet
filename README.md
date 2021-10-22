@@ -96,7 +96,7 @@
     - merge: `git merge <branch_name>`
 - conflict can occurs in 2 conditions:
 
-| when merge non-main/master branch to remote main/master branch | when push from main/master local branch to main/master remote branch |
+| ***when merge non-main/master branch to remote main/master branch*** | ***when push from main/master local branch to main/master remote branch*** |
 | --- | --- |
 | this caused by **remote main/master branch** already **merged** code from **other branches**, the same line of code that occurs in our changes | this caused by someone **push from local,  directly to main/master remote branch**, the same line of code that occurs in our changes |
 | to resolve this conflict: a) can do resolve in vim or vscode, choose which changes want to keep: the **incoming change** or the **current change**, b)add & commit changes | to resolve this conflict: a) this changes often undetected, which requires `fetch` to detect it : `git fetch`, b) pull changes from remote main/master branch: `git pull` or `git pull origin main/master`, c) resolve in vim or vscode, choose which changes want to keep: the **incoming change** or the **current change**, d) add & commit changes, e) push to remote main/master branch after resolve conflict
