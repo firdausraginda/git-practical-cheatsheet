@@ -63,10 +63,12 @@
 
 - to check **git commit history**:
     - list all commits: `git log`
+        - this command will return list of **commit hash**, commit author, commit time, & commit comment
+        - this **commit hash** is like **id** to a commit
     - list the last 3 commits: `git log -3`
     - list all commits that affect only specific file: `git log -- <file_name>`
     - to jump to the previous commit: `git checkout <commit_hash>`
-        - jump to previous commit and maintain the changes only for specific files: `git checkout <commit-hash> -- <file_name>`
+        - jump to previous commit to maintain the changes that exists in specific file: `git checkout <commit-hash> -- <file_name>`
         - to discard all changes from the prev commit, can just get back to main branch: `git checkout main/master`
         - to save changes after jump to previous commit, can just create & switch to new branch: `git checkout -b <new_branch_name>`
 
