@@ -66,8 +66,8 @@
     - list the last 3 commits: `git log -3`
     - list all commits that affect only specific file: `git log -- <file_name>`
     - to jump to the previous commit: `git checkout <commit_hash>`
-        - jump to previous commit and maintain only the specific files: `git checkout <commit-hash> -- <file_name>`
-        - to get back to main branch and discard all changes from the prev commit: `git checkout main/master`
+        - jump to previous commit and maintain the changes only for specific files: `git checkout <commit-hash> -- <file_name>`
+        - to discard all changes from the prev commit, can just get back to main branch: `git checkout main/master`
         - to save changes after jump to previous commit, can just create & switch to new branch: `git checkout -b <new_branch_name>`
 
 - if you created git repo on local, and want to push to remote:
