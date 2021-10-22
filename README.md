@@ -4,7 +4,7 @@
 - **merge request** vs **pull request** are exactly the same. [link](https://stackoverflow.com/questions/22199432/pull-request-vs-merge-request)
 - **fork** is duplicate someone's repository (including its histories) to our account, and we can make changes without interrupt the original repo
     - fork will give credit to the original repo
-    - after make changes in our duplicate repo, we can create merge request to the original one
+    - after make changes in our repo, we can create merge request or pull request to the original one (source repo)
 
 - [3 **states**](https://serengetitech.com/tech/three-states-of-git-and-three-sections-of-a-git-project/) in git:
     - **modified**: have changed the file but not committed yet
