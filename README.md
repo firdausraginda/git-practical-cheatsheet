@@ -111,7 +111,7 @@
         - after done the 2nd rebase, push it to master: `git push -u origin main/master`
 
 # references
-https://rogerdudler.github.io/git-guide/
-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-https://stackoverflow.com/questions/4037928/can-you-issue-pull-requests-from-the-command-line-on-github
-https://towardsdatascience.com/an-easy-beginners-guide-to-git-2d5a99682a4c
+- https://rogerdudler.github.io/git-guide/
+- https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+- https://stackoverflow.com/questions/4037928/can-you-issue-pull-requests-from-the-command-line-on-github
+- https://towardsdatascience.com/an-easy-beginners-guide-to-git-2d5a99682a4c
