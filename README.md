@@ -44,8 +44,8 @@
     - to list merged branches: `git branch --merged`
     - to list un-merged branches: `git branch --no-merged`
     - to delete local branch: `git branch -d <branch_name>`
-    - to delete remote branch: `git push <remote_name> --delete <branch_name>`
     - to force delete certain branch: `git branch -D <branch_name>`
+    - to delete remote branch: `git push <remote_name> --delete <branch_name>`
     - to switch branch: `git checkout <branch_name>`
         - another way to do this: `git switch <branch_name>`
     - to switch to main/master branch: `git checkout main/master`
