@@ -1,7 +1,5 @@
 # git-practical-cheatsheet
 
-extra line againts prev changes from feature-c
-
 - to initialize git in a folder: `git init `
 - **merge request** vs **pull request** are exactly the same. [link](https://stackoverflow.com/questions/22199432/pull-request-vs-merge-request)
 - **fork** is duplicate someone's repository (including its histories) to our account, and we can make changes without interrupt the original repo
